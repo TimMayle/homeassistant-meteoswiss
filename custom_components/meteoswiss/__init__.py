@@ -13,7 +13,7 @@ from homeassistant.const import Platform
 from homeassistant.core import Config, HomeAssistant
 from homeassistant.helpers import issue_registry as ir
 from homeassistant.helpers.issue_registry import IssueSeverity
-from homeassistant.helpers.typing import HomeAssistantType
+from homeassistant.helpers.typing import homeassistant.core.HomeAssistant
 from homeassistant.helpers.update_coordinator import (
     DataUpdateCoordinator,
     UpdateFailed,
