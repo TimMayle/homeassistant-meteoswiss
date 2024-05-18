@@ -7,12 +7,12 @@ from typing import Final
 from homeassistant.const import (
     CONF_NAME,
     DEGREE,
-    IRRADIATION_WATTS_PER_SQUARE_METER,
+    UnitOfIrradiance.WATTS_PER_SQUARE_METER,
     PERCENTAGE,
-    PRESSURE_HPA,
-    SPEED_KILOMETERS_PER_HOUR,
-    TEMP_CELSIUS,
-    TIME_MINUTES,
+    UnitOfPressure.HPA,
+    UnitOfSpeed.KILOMETERS_PER_HOUR,
+    UnitOfTemperature.CELSIUS,
+    UnitOfTime.MINUTES,
 )
 
 DOMAIN = "meteoswiss"
