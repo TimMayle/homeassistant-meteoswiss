@@ -1,10 +1,10 @@
 from homeassistant.const import (
-    SPEED_KILOMETERS_PER_HOUR,
-    TEMP_CELSIUS,
-    TIME_MINUTES,
+    UnitOfSpeed.KILOMETERS_PER_HOUR,
+    UnitOfTemperature.CELSIUS,
+    UnitOfTime.MINUTES,
     PERCENTAGE,
-    TIME_MINUTES,
-    PRESSURE_HPA,
+    UnitOfTime.MINUTES,
+    UnitOfPressure.HPA,
     DEGREE,
     IRRADIATION_WATTS_PER_SQUARE_METER,
 )
